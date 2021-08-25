@@ -2,6 +2,8 @@
 The purpose of the demo is to show how easy Spring Cloud Stream Binders make 
 it for us to swap out middleware.
 
+![Diagram](./docs/spring-cloud-demo.png)
+
 ## docker
 To spin up the environments choose either rabbit or kafka
 

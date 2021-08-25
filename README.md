@@ -33,5 +33,5 @@ implementation 'org.springframework.cloud:spring-cloud-stream-binder-kafka'
 In order to produce a message you need to use the controller
 
 ```shell
-$ curl -X POST -H "Content-type: application/json" http://localhost:8888/sendMessage/curl -X POST -H "Content-type: application/json" http://localhost:8888/sendMessage/somePayload
+$ curl -X POST -H "Content-type: application/json" http://localhost:8888/sendMessage/somePayload
 ```
